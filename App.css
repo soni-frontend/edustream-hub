@@ -1,0 +1,160 @@
+/* Main Layout */
+.container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Stats Section */
+.stats-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.stat-box {
+  flex: 1;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.stat-box span {
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-box h3 {
+  margin: 8px 0 0;
+  font-size: 26px;
+}
+
+.present-box h3 { color: #28a745; }
+.absent-box h3 { color: #dc3545; }
+
+/* Date Picker */
+.date-picker-container {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background: #f1f3f5;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.date-input {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+/* Action Row (Form & Download) */
+.action-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-student-form {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+
+.add-input, .search-bar {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.add-input { flex: 1; }
+
+.search-bar {
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.btn-add {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-download {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-toggle {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Table Styling */
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.attendance-table th {
+  background: #f8f9fa;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.attendance-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.present { background: #d4edda; color: #155724; }
+.absent { background: #f8d7da; color: #721c24; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .action-row, .stats-container {
+    flex-direction: column;
+  }
+}
