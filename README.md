@@ -5,12 +5,6 @@ EduStream Hub ek modern web application hai jo professors ke daily tasks jaise s
 
 ---
 
-## 🌐 Live Demo
-Yahan click karke project ko live dekhein:  
-👉 **[Live Link Yahan Paste Karein]** *(Vercel ya Netlify ka link)*
-
----
-
 ## 🚀 Key Features
 *   **Digital Attendance:** Ek hi dashboard se students ki attendance (Present/Absent) mark karne ki suvidha.
 *   **Real-time Analytics:** Total students, Present, aur Absent ka count dashboard par live dikhta hai.
