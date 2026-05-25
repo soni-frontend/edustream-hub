@@ -24,13 +24,6 @@ EduStream Hub ek modern web application hai jo professors ke daily tasks jaise s
 * `src/assets/` - Project mein use ki gayi images aur icons.
 * `package.json` - Project dependencies aur configurations.
 
-## 🛠️ Local Setup
-Project ko apne machine par chalane ke liye:
-1. Repo clone karein: `git clone [aapka-repo-link]`
-2. Folder mein jayein: `cd edustream-hub`
-3. Dependencies install karein: `npm install`
-4. Project start karein: `npm start`
-
 ---
 **Developed with ❤️ by Soni Kumari**  
 *Aspiring Frontend Developer | BCA Student*  
